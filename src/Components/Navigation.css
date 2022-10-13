@@ -1,0 +1,22 @@
+.Navigation{
+    position: fixed;
+    top: 10%;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.Navigation>a{
+font-weight: bold;
+ display: inline-block;
+ width: 50px;
+ text-align: center;
+ height: 30px;
+ line-height: 30px;
+ background: #fff;
+ text-decoration: none;
+ color: #000fe2;
+ font-size: 10px;
+ box-shadow: -1px 10px 10px #dfdfdf;
+}
